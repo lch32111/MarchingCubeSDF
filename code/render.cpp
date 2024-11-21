@@ -138,7 +138,7 @@ void renderer_init(Renderer* r, const std::vector<SDFObjData*>& sdf_objs)
         }
     }
 
-    camera_reset(&r->cam, glm::vec3(0.f), g_window_state.window_width, g_window_state.window_height);
+    camera_reset(&r->cam, glm::vec3(3.f, 0.f, 0.f), g_window_state.window_width, g_window_state.window_height);
 
 	r->render_primitive = new RenderPrimitive();
 	render_primitive_init(r->render_primitive);

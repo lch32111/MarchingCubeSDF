@@ -47,7 +47,7 @@ void glfw_init()
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
-    g_window_state.window = glfwCreateWindow(g_window_state.window_width, g_window_state.window_height, "COMP 477 Submission (40228578/Chanhaeng Lee)", NULL, NULL);
+    g_window_state.window = glfwCreateWindow(g_window_state.window_width, g_window_state.window_height, "MarchingCubeSDF", NULL, NULL);
     if (g_window_state.window == NULL)
     {
         printf("Failed to create GLFW window\n");

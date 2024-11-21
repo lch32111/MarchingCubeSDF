@@ -20,8 +20,7 @@ int main()
 
     std::vector<SDFObjData*> sdf_objs =
     {
-        sdf_obj_load("resource/bunny.obj", 1.f, 0.1f),
-        sdf_obj_load("resource/teapot.obj", 0.01f, 0.05f),
+        sdf_obj_load("resource/bunny.obj", 1.f, 0.05f),
     };
     renderer_init(&renderer, sdf_objs);
 
